@@ -1,31 +1,29 @@
-# Inteligencia Artificial na Analise dedados
-Miniguia de estudos desenvolvido com NotebookLM sobre Inteligência Artificial aplicada à Análise de Dados e Business Intelligence.
-
 # Inteligência Artificial na Análise de Dados e Business Intelligence com NotebookLM
 
-Sobre o projeto
+## Sobre o projeto
 
-Este projeto foi desenvolvido como parte do desafio prático da DIO utilizando o Google NotebookLM como ferramenta de aprendizagem ativa.
+Este projeto foi desenvolvido durante o Bootcamp Bradesco - Java Cloud Native em parceria com a DIO, utilizando o Google NotebookLM como ferramenta de aprendizagem ativa.
 
-O objetivo foi estudar como a Inteligência Artificial está transformando a Análise de Dados e o Business Intelligence (BI), identificando suas principais aplicações, oportunidades, limitações e tendências a partir de fontes acadêmicas e técnicas.
+Escolhi estudar Inteligência Artificial aplicada à Análise de Dados e ao Business Intelligence porque atualmente estou direcionando minha carreira para a área de Dados. Meu objetivo não era apenas entender as aplicações da IA, mas também experimentar como diferentes formas de construir prompts influenciam a qualidade das respostas produzidas pela ferramenta.
 
-Além do estudo do tema, o projeto também teve como foco a aplicação de diferentes técnicas de Engenharia de Prompts para compreender como pequenas alterações na estrutura dos prompts influenciam diretamente a qualidade das respostas produzidas pelo NotebookLM.
-
----
-
-# Objetivos
-
-- Estudar aplicações da Inteligência Artificial na Análise de Dados e no Business Intelligence.
-- Desenvolver um processo de aprendizagem baseado em curadoria de fontes.
-- Experimentar diferentes técnicas de Engenharia de Prompts.
-- Construir um miniguia de estudos para futuras revisões.
-- Documentar dificuldades encontradas e aprendizados obtidos durante o processo.
+Ao invés de utilizar o NotebookLM apenas para resumir documentos, procurei utilizá-lo como um ambiente de estudo, testando diferentes estratégias de Engenharia de Prompts, comparando respostas e registrando os aprendizados obtidos durante o processo.
 
 ---
 
-# Fontes utilizadas
+## Objetivos
 
-Fontes abertas foram carregadas no NotebookLM para compor a base de conhecimento do projeto:
+Durante este projeto busquei:
+
+- compreender como a IA vem sendo utilizada em Business Intelligence e Análise de Dados;
+- identificar benefícios, limitações e tendências observadas nas fontes estudadas;
+- aprender a construir prompts mais eficientes;
+- criar um material que possa servir como guia de revisão no futuro.
+
+---
+
+## Fontes utilizadas
+
+Para montar o caderno no NotebookLM foram utilizadas cinco fontes abertas relacionadas ao tema.
 
 - Gartner Magic Quadrant for Analytics and Business Intelligence Platforms (2026)
 - Opportunities and Challenges for AI-supported Business Intelligence Systems – A Delphi Study
@@ -33,247 +31,91 @@ Fontes abertas foram carregadas no NotebookLM para compor a base de conhecimento
 - The Impact of Artificial Intelligence on Research Efficiency
 - Inteligência Artificial e Ensino Superior em Contabilidade: Impactos, Desafios e Potencialidades
 
----
-
-# Engenharia de Prompts
-
-Durante o desenvolvimento foram realizados diversos testes para avaliar como diferentes estratégias de construção de prompts afetam a qualidade das respostas produzidas pelo NotebookLM.
-
-## Prompt 1 — Prompt Inicial
-
-**Objetivo**
-
-Obter uma visão geral sobre as aplicações da IA em Business Intelligence.
-
-**Prompt**
-
-```
-Quais são as principais aplicações da Inteligência Artificial na Análise de Dados e no Business Intelligence?
-```
-
-### Resultado observado
-
-O NotebookLM acabou apresentando uma visão geral consistente sobre o tema, porém com respostas bastante amplas e pouca comparação entre as fontes carregadas.
-
-### Aprendizado
-
-Prompts muito genéricos tendem a produzir respostas corretas, porém pouco aprofundadas.
+A escolha das fontes buscou reunir perspectivas diferentes sobre o tema, combinando estudos acadêmicos, pesquisas de mercado e aplicações práticas.
 
 ---
 
-## Prompt 2 — Instruções Claras
+## Como conduzi o estudo
 
-Decidir definir um papel para o modelo e restringido o uso apenas das fontes carregadas.
+Depois de carregar as fontes no NotebookLM, preferi não pedir imediatamente um resumo completo. Resolvi começar com perguntas simples para entender como a ferramenta responderia utilizando apenas o material disponível.
 
-### Aprendizado
+O primeiro prompt utilizado foi:
 
-As respostas se tornaram bem mais organizadas e aderentes ao material estudado.
+> Quais são as principais aplicações da Inteligência Artificial na Análise de Dados e no Business Intelligence?
 
----
+A resposta foi satisfatória para uma visão geral, mas ainda bastante ampla. Os conceitos principais apareceram corretamente, porém senti falta de uma organização melhor e de uma comparação entre os diferentes documentos.
 
-## Prompt 3 — Estrutura de Saída
+A partir desse resultado comecei a modificar a forma de escrever os prompts.
 
-Foi solicitado que a resposta fosse organizada em:
+Primeiro defini um contexto para o modelo, informando que ele deveria atuar como especialista em Business Intelligence e utilizar exclusivamente as fontes carregadas no NotebookLM. A resposta ficou mais consistente e aderente ao material utilizado.
 
-- Aplicações
-- Benefícios
-- Limitações
-- Tendências
-- Conclusão
+Depois experimentei pedir uma estrutura fixa para a resposta, separando aplicações, benefícios, limitações, tendências e conclusão. Essa pequena mudança tornou o conteúdo muito mais fácil de compreender.
 
-### Aprendizado
+Na etapa seguinte resolvi dividir o problema em partes menores, solicitando primeiro a identificação das aplicações, depois o agrupamento por categorias, em seguida os benefícios, limitações e somente ao final uma conclusão geral. Esse foi o teste que apresentou os resultados mais completos.
 
-A organização da saída tornou a leitura mais clara e facilitou a comparação entre os diferentes aspectos do tema.
+Também utilizei restrições (guardrails), orientando o NotebookLM a utilizar apenas as informações presentes nas fontes e informar explicitamente quando determinado assunto não estivesse documentado. Essa estratégia reduziu respostas especulativas e aumentou a confiabilidade das informações.
+
+Por fim, pedi uma comparação entre todas as fontes carregadas. Esse foi, na minha opinião, o experimento mais interessante do projeto, pois permitiu identificar pontos de convergência, divergências e diferentes perspectivas sobre o uso da IA em Business Intelligence.
 
 ---
 
-## Prompt 4 — Divisão da Tarefa
+## O que aprendi durante os testes
 
-O problema foi dividido em etapas menores:
+A principal conclusão foi que a qualidade das respostas depende muito mais da construção do prompt do que da quantidade de documentos utilizados.
 
-- identificar aplicações;
-- agrupar aplicações semelhantes;
-- identificar benefícios;
-- identificar limitações;
-- produzir uma conclusão.
+Durante os testes observei que:
 
-### Aprendizado
-
-A divisão da tarefa aumentou significativamente a profundidade da análise.
-
----
-
-## Prompt 5 — Guardrails
-
-Foram adicionadas restrições para que o NotebookLM utilizasse exclusivamente as fontes carregadas e informasse quando determinada informação não estivesse disponível.
-
-### Aprendizado
-
-As respostas foram mais confiaveis e reduziram extrapolações desnecessárias.
+- prompts muito genéricos produzem respostas corretas, porém superficiais;
+- definir claramente o contexto melhora significativamente a qualidade das respostas;
+- solicitar uma estrutura de saída facilita a leitura e organização das informações;
+- dividir problemas complexos em etapas produz análises mais completas;
+- limitar o modelo às fontes carregadas reduz extrapolações desnecessárias;
+- comparar documentos diferentes ajuda a identificar consensos e pontos de divergência.
 
 ---
 
-## Prompt 6 — Comparação entre Fontes
+## Miniguia de estudos
 
-Pedi para o NotebookLM comparasse todas as fontes, destacando:
+A partir das respostas obtidas foi possível consolidar alguns pontos principais.
 
-- principais ideias;
-- contribuições;
-- limitações;
-- diferenças entre os autores.
+A Inteligência Artificial já está presente em praticamente todas as etapas do ciclo analítico, desde a preparação dos dados até a geração automática de insights. Entre as aplicações mais recorrentes encontradas nas fontes estão a limpeza automatizada de dados, analytics conversacional, analytics agêntico, análise preditiva, geração de dashboards inteligentes e criação automática de narrativas.
 
-### Aprendizado
+Entre os benefícios mais citados destacam-se o aumento da produtividade, a redução do tempo necessário para análise de grandes volumes de dados, a democratização do acesso às informações e o apoio à tomada de decisão.
 
-Esse foi o prompt que gerou os resultados mais completos, deixando possivel identificar convergências e divergências entre diferentes perspectivas sobre IA aplicada ao BI.
+Ao mesmo tempo, todas as fontes chamam atenção para limitações importantes, principalmente relacionadas à qualidade dos dados utilizados, vieses algorítmicos, alucinações em modelos generativos, privacidade e necessidade de supervisão humana.
 
----
-
-# Principais Cicatrizes
-
-Durante os testes foi possível perceber que:
-
-| Dificuldade encontrada | Ajuste realizado | Resultado |
-|------------------------|------------------|-----------|
-| Respostas muito genéricas | Inclusão de contexto | Respostas mais específicas |
-| Pouca organização | Estrutura de saída | Melhor legibilidade |
-| Pouca profundidade | Divisão da tarefa | Análises mais completas |
-| Informações além das fontes | Restrição às fontes | Maior confiabilidade |
-| Pouca comparação | Prompt comparativo | Melhor compreensão do tema |
+Outro aspecto recorrente foi a tendência de evolução das plataformas de Business Intelligence para modelos cada vez mais orientados por IA, incorporando agentes inteligentes, interfaces em linguagem natural e camadas semânticas capazes de melhorar a governança dos dados.
 
 ---
 
-# Miniguia de Estudos
+## Glossário
 
-## Principais aplicações da IA
+**Business Intelligence (BI):** conjunto de processos e ferramentas utilizados para transformar dados em informações úteis para tomada de decisão.
 
-- Preparação e limpeza automatizada de dados;
-- Analytics conversacional;
-- Analytics agêntico;
-- Descoberta automática de padrões;
-- Modelagem preditiva;
-- Dashboards inteligentes;
-- Geração automática de narrativas;
-- Embedded Analytics;
-- Automação de auditorias;
-- Apoio à pesquisa científica.
+**Analytics Agêntico:** utilização de agentes de IA capazes de executar tarefas analíticas de forma autônoma ou semiautônoma.
+
+**IA Generativa:** modelos capazes de produzir textos, códigos, imagens e outros conteúdos a partir de comandos em linguagem natural.
+
+**Governança de Dados:** conjunto de práticas responsáveis por garantir qualidade, segurança e consistência dos dados utilizados por uma organização.
+
+**Storytelling de Dados:** técnica de comunicação que utiliza narrativas para explicar resultados obtidos durante análises.
 
 ---
 
-## Benefícios
+## Prompts que pretendo reutilizar
 
-- Maior produtividade;
-- Redução do tempo de análise;
-- Democratização do acesso aos dados;
-- Apoio à tomada de decisão;
-- Automação de tarefas repetitivas;
-- Melhor aproveitamento de grandes volumes de dados.
+Alguns prompts se mostraram especialmente úteis durante o desenvolvimento e certamente serão reaproveitados em estudos futuros.
 
----
-
-## Limitações
-
-- Dependência da qualidade dos dados;
-- Possibilidade de vieses algorítmicos;
-- Alucinações em modelos generativos;
-- Necessidade de supervisão humana;
-- Questões éticas e de privacidade.
+- Comparar diferentes fontes sobre um mesmo tema.
+- Produzir resumos estruturados utilizando apenas os documentos carregados.
+- Construir glossários automaticamente.
+- Identificar convergências e divergências entre autores.
+- Organizar conteúdos em níveis crescente de complexidade para revisão.
 
 ---
 
-## Tendências
+## Considerações finais
 
-- Analytics Agêntico;
-- IA Generativa integrada ao BI;
-- Camadas semânticas;
-- Interfaces conversacionais;
-- Automação de fluxos analíticos.
+Mais do que estudar Inteligência Artificial aplicada ao Business Intelligence, este projeto me permitiu compreender como a Engenharia de Prompts influencia diretamente a qualidade das respostas produzidas por modelos de IA.
 
----
-
-# Glossário
-
-**Business Intelligence (BI)**  
-Conjunto de processos e tecnologias utilizados para transformar dados em informações úteis para tomada de decisão.
-
-**Analytics Agêntico**  
-Modelo em que agentes de IA executam tarefas analíticas de forma autônoma ou semiautônoma.
-
-**IA Generativa**  
-Modelos capazes de gerar textos, códigos, imagens e outros conteúdos a partir de comandos em linguagem natural.
-
-**Governança de Dados**  
-Conjunto de práticas responsáveis por garantir qualidade, segurança e consistência dos dados.
-
-**Camada Semântica**  
-Estrutura que padroniza métricas e conceitos utilizados em análises.
-
-**Storytelling de Dados**  
-Uso de narrativas para explicar informações obtidas por meio da análise de dados.
-
-**NLP (Processamento de Linguagem Natural)**  
-Área da IA voltada para compreensão e geração de linguagem humana.
-
----
-
-# Prompts reutilizáveis
-
-### Resumo Estruturado
-
-```
-Analise exclusivamente as fontes carregadas.
-
-Explique o tema utilizando a seguinte estrutura:
-
-- Introdução
-- Principais conceitos
-- Benefícios
-- Limitações
-- Conclusão
-
-Ao final cite as fontes utilizadas.
-```
-
----
-
-### Comparação de Fontes
-
-```
-Compare todas as fontes carregadas.
-
-Identifique:
-
-- principais ideias;
-- convergências;
-- divergências;
-- limitações.
-
-Ao final produza uma síntese crítica.
-```
-
----
-
-### Glossário
-
-```
-Crie um glossário contendo os principais conceitos encontrados nas fontes.
-
-Explique cada conceito em até duas linhas.
-```
-
----
-
-# Conclusão
-
-O desenvolvimento deste projeto demonstrou que o NotebookLM pode ser utilizado como uma ferramenta de aprendizagem ativae que ele vai bem além de uma simples geração de resumos.
-
-A experiência deixou claro que a qualidade das respostas depende diretamente da construção dos prompts. Técnicas como definição de contexto, estruturação da saída, restrições e divisão da tarefa produziram respostas mais organizadas, consistentes e úteis para o estudo do tema.
-
-Esse projeto me permitiu compreender na prática, como a Engenharia de Prompts influencia a interação com modelos de IA e potencializa o processo de aprendizagem.
-
-Tecnologias Utilizadas no processo :
-
-Google NotebookLM
-Inteligência Artificial Generativa
-Engenharia de Prompts
-Markdown
-GitHub
+Também ficou evidente que ferramentas como o NotebookLM podem ser utilizadas como instrumentos de aprendizagem ativa, auxiliando não apenas na síntese de conteúdos, mas também na organização do conhecimento e no desenvolvimento de um processo de estudo mais estruturado.
