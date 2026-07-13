@@ -8,8 +8,6 @@ Escolhi estudar Inteligência Artificial aplicada à Análise de Dados e ao Busi
 
 Ao invés de utilizar o NotebookLM apenas para resumir documentos, procurei utilizá-lo como um ambiente de estudo, testando diferentes estratégias de Engenharia de Prompts, comparando respostas e registrando os aprendizados obtidos durante o processo.
 
-
-
  Objetivos
 
 Durante este projeto busquei:
@@ -19,8 +17,7 @@ Durante este projeto busquei:
 - aprender a construir prompts mais eficientes;
 - criar um material que possa servir como guia de revisão no futuro.
 
-
-## Fontes utilizadas
+Fontes utilizadas
 
 Para montar o caderno no NotebookLM foram utilizadas cinco fontes abertas relacionadas ao tema.
 
@@ -32,7 +29,7 @@ Para montar o caderno no NotebookLM foram utilizadas cinco fontes abertas relaci
 
 A escolha das fontes buscou reunir perspectivas diferentes sobre o tema, combinando estudos acadêmicos, pesquisas de mercado e aplicações práticas.
 
-## Como conduzi o estudo
+Como conduzi o estudo
 
 Depois de carregar as fontes no NotebookLM, preferi não pedir imediatamente um resumo completo. Resolvi começar com perguntas simples para entender como a ferramenta responderia utilizando apenas o material disponível.
 
@@ -54,7 +51,7 @@ Também utilizei restrições (guardrails), orientando o NotebookLM a utilizar a
 
 Por fim, pedi uma comparação entre todas as fontes carregadas. Esse foi, na minha opinião, o experimento mais interessante do projeto, pois permitiu identificar pontos de convergência, divergências e diferentes perspectivas sobre o uso da IA em Business Intelligence.
 
-## O que aprendi durante os testes
+O que aprendi durante os testes
 
 A principal conclusão foi que a qualidade das respostas depende muito mais da construção do prompt do que da quantidade de documentos utilizados.
 
@@ -67,7 +64,7 @@ Durante os testes observei que:
 - limitar o modelo às fontes carregadas reduz extrapolações desnecessárias;
 - comparar documentos diferentes ajuda a identificar consensos e pontos de divergência.
 
-## Miniguia de estudos
+Miniguia de estudos
 
 A partir das respostas obtidas foi possível consolidar alguns pontos principais.
 
