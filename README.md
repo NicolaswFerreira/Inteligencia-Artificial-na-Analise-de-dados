@@ -1,9 +1,9 @@
-# Inteligencia-Artificial-na-Analise-de-dados
+# Inteligencia Artificial na Analise dedados
 Miniguia de estudos desenvolvido com NotebookLM sobre Inteligência Artificial aplicada à Análise de Dados e Business Intelligence.
 
 # Inteligência Artificial na Análise de Dados e Business Intelligence com NotebookLM
 
-## Sobre o projeto
+Sobre o projeto
 
 Este projeto foi desenvolvido como parte do desafio prático da DIO utilizando o Google NotebookLM como ferramenta de aprendizagem ativa.
 
@@ -25,7 +25,7 @@ Além do estudo do tema, o projeto também teve como foco a aplicação de difer
 
 # Fontes utilizadas
 
-As seguintes fontes abertas foram carregadas no NotebookLM para compor a base de conhecimento do projeto:
+Fontes abertas foram carregadas no NotebookLM para compor a base de conhecimento do projeto:
 
 - Gartner Magic Quadrant for Analytics and Business Intelligence Platforms (2026)
 - Opportunities and Challenges for AI-supported Business Intelligence Systems – A Delphi Study
@@ -53,7 +53,7 @@ Quais são as principais aplicações da Inteligência Artificial na Análise de
 
 ### Resultado observado
 
-O NotebookLM apresentou uma visão geral consistente sobre o tema, porém com respostas bastante amplas e pouca comparação entre as fontes carregadas.
+O NotebookLM acabou apresentando uma visão geral consistente sobre o tema, porém com respostas bastante amplas e pouca comparação entre as fontes carregadas.
 
 ### Aprendizado
 
@@ -63,11 +63,11 @@ Prompts muito genéricos tendem a produzir respostas corretas, porém pouco apro
 
 ## Prompt 2 — Instruções Claras
 
-Foi definido um papel para o modelo e restringido o uso apenas das fontes carregadas.
+Decidir definir um papel para o modelo e restringido o uso apenas das fontes carregadas.
 
 ### Aprendizado
 
-As respostas tornaram-se mais organizadas e aderentes ao material estudado.
+As respostas se tornaram bem mais organizadas e aderentes ao material estudado.
 
 ---
 
@@ -109,13 +109,13 @@ Foram adicionadas restrições para que o NotebookLM utilizasse exclusivamente a
 
 ### Aprendizado
 
-As respostas passaram a apresentar maior confiabilidade e reduziram extrapolações desnecessárias.
+As respostas foram mais confiaveis e reduziram extrapolações desnecessárias.
 
 ---
 
 ## Prompt 6 — Comparação entre Fontes
 
-Foi solicitado que o NotebookLM comparasse todas as fontes, destacando:
+Pedi para o NotebookLM comparasse todas as fontes, destacando:
 
 - principais ideias;
 - contribuições;
@@ -124,7 +124,7 @@ Foi solicitado que o NotebookLM comparasse todas as fontes, destacando:
 
 ### Aprendizado
 
-Esse foi o prompt que gerou os resultados mais completos, permitindo identificar convergências e divergências entre diferentes perspectivas sobre IA aplicada ao BI.
+Esse foi o prompt que gerou os resultados mais completos, deixando possivel identificar convergências e divergências entre diferentes perspectivas sobre IA aplicada ao BI.
 
 ---
 
@@ -264,13 +264,13 @@ Explique cada conceito em até duas linhas.
 
 # Conclusão
 
-O desenvolvimento deste projeto demonstrou que o NotebookLM pode ser utilizado como uma ferramenta de aprendizagem ativa, indo além da simples geração de resumos.
+O desenvolvimento deste projeto demonstrou que o NotebookLM pode ser utilizado como uma ferramenta de aprendizagem ativae que ele vai bem além de uma simples geração de resumos.
 
-A experiência evidenciou que a qualidade das respostas depende diretamente da construção dos prompts. Técnicas como definição de contexto, estruturação da saída, restrições e divisão da tarefa produziram respostas mais organizadas, consistentes e úteis para o estudo do tema.
+A experiência deixou claro que a qualidade das respostas depende diretamente da construção dos prompts. Técnicas como definição de contexto, estruturação da saída, restrições e divisão da tarefa produziram respostas mais organizadas, consistentes e úteis para o estudo do tema.
 
-Mais do que aprender sobre Inteligência Artificial aplicada ao Business Intelligence, este projeto permitiu compreender, na prática, como a Engenharia de Prompts influencia a interação com modelos de IA e potencializa o processo de aprendizagem.
+Esse projeto me permitiu compreender na prática, como a Engenharia de Prompts influencia a interação com modelos de IA e potencializa o processo de aprendizagem.
 
-Tecnologias Utilizadas :
+Tecnologias Utilizadas no processo :
 
 Google NotebookLM
 Inteligência Artificial Generativa
