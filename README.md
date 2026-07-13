@@ -1,6 +1,6 @@
-# Inteligência Artificial na Análise de Dados e Business Intelligence com NotebookLM
+ Inteligência Artificial na Análise de Dados e Business Intelligence com NotebookLM
 
-## Sobre o projeto
+Sobre o projeto
 
 Este projeto foi desenvolvido durante o Bootcamp Bradesco - Java Cloud Native em parceria com a DIO, utilizando o Google NotebookLM como ferramenta de aprendizagem ativa.
 
@@ -8,9 +8,9 @@ Escolhi estudar Inteligência Artificial aplicada à Análise de Dados e ao Busi
 
 Ao invés de utilizar o NotebookLM apenas para resumir documentos, procurei utilizá-lo como um ambiente de estudo, testando diferentes estratégias de Engenharia de Prompts, comparando respostas e registrando os aprendizados obtidos durante o processo.
 
----
 
-## Objetivos
+
+ Objetivos
 
 Durante este projeto busquei:
 
@@ -19,7 +19,6 @@ Durante este projeto busquei:
 - aprender a construir prompts mais eficientes;
 - criar um material que possa servir como guia de revisão no futuro.
 
----
 
 ## Fontes utilizadas
 
@@ -33,15 +32,13 @@ Para montar o caderno no NotebookLM foram utilizadas cinco fontes abertas relaci
 
 A escolha das fontes buscou reunir perspectivas diferentes sobre o tema, combinando estudos acadêmicos, pesquisas de mercado e aplicações práticas.
 
----
-
 ## Como conduzi o estudo
 
 Depois de carregar as fontes no NotebookLM, preferi não pedir imediatamente um resumo completo. Resolvi começar com perguntas simples para entender como a ferramenta responderia utilizando apenas o material disponível.
 
 O primeiro prompt utilizado foi:
 
-> Quais são as principais aplicações da Inteligência Artificial na Análise de Dados e no Business Intelligence?
+"Quais são as principais aplicações da Inteligência Artificial na Análise de Dados e no Business Intelligence?"
 
 A resposta foi satisfatória para uma visão geral, mas ainda bastante ampla. Os conceitos principais apareceram corretamente, porém senti falta de uma organização melhor e de uma comparação entre os diferentes documentos.
 
@@ -57,8 +54,6 @@ Também utilizei restrições (guardrails), orientando o NotebookLM a utilizar a
 
 Por fim, pedi uma comparação entre todas as fontes carregadas. Esse foi, na minha opinião, o experimento mais interessante do projeto, pois permitiu identificar pontos de convergência, divergências e diferentes perspectivas sobre o uso da IA em Business Intelligence.
 
----
-
 ## O que aprendi durante os testes
 
 A principal conclusão foi que a qualidade das respostas depende muito mais da construção do prompt do que da quantidade de documentos utilizados.
@@ -72,8 +67,6 @@ Durante os testes observei que:
 - limitar o modelo às fontes carregadas reduz extrapolações desnecessárias;
 - comparar documentos diferentes ajuda a identificar consensos e pontos de divergência.
 
----
-
 ## Miniguia de estudos
 
 A partir das respostas obtidas foi possível consolidar alguns pontos principais.
@@ -86,9 +79,8 @@ Ao mesmo tempo, todas as fontes chamam atenção para limitações importantes, 
 
 Outro aspecto recorrente foi a tendência de evolução das plataformas de Business Intelligence para modelos cada vez mais orientados por IA, incorporando agentes inteligentes, interfaces em linguagem natural e camadas semânticas capazes de melhorar a governança dos dados.
 
----
 
-## Glossário
+ Glossário
 
 **Business Intelligence (BI):** conjunto de processos e ferramentas utilizados para transformar dados em informações úteis para tomada de decisão.
 
@@ -100,9 +92,8 @@ Outro aspecto recorrente foi a tendência de evolução das plataformas de Busin
 
 **Storytelling de Dados:** técnica de comunicação que utiliza narrativas para explicar resultados obtidos durante análises.
 
----
 
-## Prompts que pretendo reutilizar
+ Prompts que pretendo reutilizar
 
 Alguns prompts se mostraram especialmente úteis durante o desenvolvimento e certamente serão reaproveitados em estudos futuros.
 
@@ -112,9 +103,7 @@ Alguns prompts se mostraram especialmente úteis durante o desenvolvimento e cer
 - Identificar convergências e divergências entre autores.
 - Organizar conteúdos em níveis crescente de complexidade para revisão.
 
----
-
-## Considerações finais
+Considerações finais
 
 Mais do que estudar Inteligência Artificial aplicada ao Business Intelligence, este projeto me permitiu compreender como a Engenharia de Prompts influencia diretamente a qualidade das respostas produzidas por modelos de IA.
 
